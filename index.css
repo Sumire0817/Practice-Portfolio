@@ -1,0 +1,204 @@
+:root{
+    --colorBlackSwarm: rgb(22, 22, 22);
+    --colorBoneFireRed: rgb(218,26,50);
+    --colorMagnoliaWhite: rgb(255,255,255);
+    --colorEmbers: rgb(160,12,48);
+}
+body{
+    background: var(--colorBlackSwarm);
+    width: 100vw;
+    height: 100vh;
+    margin: 0   ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", serif;
+    
+
+}
+header{
+    height: 4   0px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding-left: 0px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: black;
+    z-index: 10; /* Ensure it stays on top */
+    
+}
+.nav ul{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+margin-right: 40px;
+}
+header a
+{
+    color: var(--colorBoneFireRed);
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.socialIcons li
+{
+    list-style-type: none;
+}
+.About{
+    width: 800px;
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1200px 400px 0px 400px;
+    gap :60px;
+    
+}
+.About img{
+    width: 400px;
+    height: 500px;
+    border-radius: 50%;
+    filter: drop-shadow(0px 0px  10px var(--colorMagnoliaWhite)) ;
+}
+
+.aboutDetails {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--colorBoneFireRed); 
+    filter: drop-shadow(0px 0px  10px var(--colorEmbers)) ;
+  
+
+}
+header h1, header h2{
+    font-size: 20px;
+    
+}
+.skills ul{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    gap: 30px;
+}
+
+
+.Projects, .Contacts{
+    width: 90%;
+    color: var(--colorBoneFireRed);
+    filter: drop-shadow(0px 0px 10px var(--colorEmbers));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;   
+}
+.Contacts{
+    gap: 10px;
+}
+.Projects h2, .Contacts h2{
+    justify-content: left;
+}
+
+hr {
+    width: 100%;
+    margin: 0;
+    height: 1px;
+    border: none;
+    background-color: var(--colorBoneFireRed);
+    filter: drop-shadow(0px 0px 1px var(--colorEmbers));
+}
+.projectGroup{
+    padding: 20px 0px 0px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+.contactGroup{
+    width: 100%;
+    display: flex;
+    align-items: center;        
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.projectContainer{
+    background:var(--colorMagnoliaWhite);
+    margin: 0px;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 12px;
+}
+img{
+    width: 450px;
+    height: 300px;
+}
+.projectDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px 40px 40px;
+}
+.contactDetails{
+    margin: 0px;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 12px;    
+    border: 1px solid var(--colorBoneFireRed);
+    width: 100%;
+}
+footer{
+    color: var(--colorBoneFireRed);
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.socialIcons{
+    border: 1px solid var(--colorBoneFireRed);
+    width: 100%;
+}
+.socialIcons ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.socialIcons li{
+    size: 100px;
+    color: var(--colorBoneFireRed);
+    text-decoration: none;
+    text-align: center;
+}
